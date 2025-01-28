@@ -62,7 +62,7 @@ async  function fetchData(msg)
     },
     body: JSON.stringify(data)
   }
-  console.log("Fethjc data kke andar")
+  
   
 fetch(url,options)
 .then(response => response.json())
