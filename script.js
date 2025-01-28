@@ -48,7 +48,7 @@ async  function fetchData(msg)
   msg =  `${msg}`+  "[NOte:  Don't use special characters in the message except for spaces, and don't bold the text. The message should be brief]"
 
  
-    const apiKey = "AIzaSyBfCQ2rq9vap2U_mLFADewitWPFYRBowC0";
+    const apiKey = "";
    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
    const data = {
     contents: [{
